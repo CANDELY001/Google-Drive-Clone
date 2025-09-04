@@ -26,6 +26,19 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cloud.appwrite.io",
       },
+      {
+        protocol: "https",
+        hostname: "assets.example.com",
+        port: "",
+        pathname: "/account123/**",
+        search: "",
+      },
+      {
+        protocol: "https",
+        hostname: "nyc.cloud.appwrite.io",
+        port: "",
+        pathname: "/v1/storage/buckets/**",
+      },
     ],
   },
 };
